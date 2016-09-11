@@ -1,0 +1,41 @@
+.content {
+    background: #D8D8D8;
+    color: #373737;
+    width: 99%;
+    height: 800px;
+    text-align: right;
+}
+
+h1 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    border-radius:12px;
+}
+
+.homeButton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius:12px;
+}
+
+.homeButton:hover,button:hover {
+	background-color:#5cbf2a;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.homeButton:active,button:active {
+	position:relative;
+	top:1px;
+}
+

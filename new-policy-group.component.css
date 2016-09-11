@@ -1,0 +1,93 @@
+table {
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+select {
+     width: 150px;
+    font-size: 20px;
+    height: 34px;
+    background: lightgray;
+}
+
+option {
+    font-size: 20px;
+}
+
+input {
+    font-size: 18px;
+}
+
+.name-input {
+    background: lightgray;
+   width: 180px;
+   padding: 5px;
+   font-size: 16px;
+   height: 34px;
+   -webkit-appearance: none;
+}
+
+
+.number-input {
+    background: lightgray;
+   width: 100px;
+   padding: 5px;
+   font-size: 16px;
+   height: 34px;
+   -webkit-appearance: none; 
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.add {
+    background-color: #4CAF50;
+    margin-left: 5px;
+}
+
+
+.submit {
+    background-color: #4CAF50; /* Green */
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border-radius:12px;
+}
+
+.cancel {
+    background-color: red;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 20px;
+    border-radius:12px;
+}
+
+.cancel:hover {
+	background-color: darkred;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.cancel:active {
+	position:relative;
+	top:1px;
+}
+
+.submit:hover,.add:hover {
+	background-color:#5cbf2a;
+     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.submit:active {
+	position:relative;
+	top:1px;
+}
