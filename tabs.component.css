@@ -1,25 +1,27 @@
 
-.menu, .menu ul {
+ul {
     font-family: Arial;
-    font-size: 18px, bold;
-    width: 99%;
+    font-size: 18px;
+    font-weight: bold;
+    width: 94.9%;
+    padding-right: 50px;
+    padding-left: 0;
     overflow: hidden;
     list-style-type: none;
     background: #A3C159;
     margin: 0;
-    padding: 0;
 }
 
 
-.menu li{
+li{
   float: left;
     display: block;
     padding: 10px 15px;
-    color: #FFF;
+    color: white;
     text-decoration: none;
     border-right: 1px solid #FFF;
 }
-.menu li:hover {
+li:hover {
     background: #1BA6B2;
 }
 
